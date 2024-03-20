@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input-output</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all">
+        <div class="container">
+            <div class="title">Input Section</div>
+            <form action="#">
+                <div class="input-box">
+                    <input class="names" id="name" type="text" placeholder="Enter your Name" required>
+                </div>
+                <div class="input-box">
+                    <input class="ages" id="age" type="text" placeholder="Enter your Age" required>
+                </div>
+                <div class="but">
+                    <input type="button" name="#" id="eval-btn" class="btn" value="Evaluate">
+                </div>
+            </form>
+        </div>
+        <div class="container-2">
+            <div class="title">Output Section</div>
+            <form action="#">
+                <div class="input-box">
+                    <input class="names" id="name-output" type="text" placeholder="Result" readonly required>
+                </div>
+                <div class="input-box">
+                    <input class="ages" id="age-output" type="text" placeholder="Result" readonly required>
+                </div>
+                <div class="age-res">
+                    <p id="remark"></p>
+                </div>
+                <div class="but">
+                    <input type="button" name="#" id="res-btn" class="btn" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
